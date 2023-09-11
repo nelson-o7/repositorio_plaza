@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    
+}
+
+#contenedor_izquierdo {
+    background-color: rgb(38, 163, 96);
+    width: 15%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 10px;
+}
+#contenedor_derecho {
+    background-color: rgb(75, 42, 32);
+    width: 15%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 10px;
+}
+
+.contenedor_componente {
+    position: relative;
+    height: 10.5%;
+    left: 20%;
+}
+
+.componente {
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}
+
+.cielo {
+    height: 80%;
+    width: 60%;
+    background-color: aqua;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.suelo {
+    height: 25%;
+    width: 60%;
+    background-color: rgb(19, 63, 19);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+    z-index: 1;
+}
